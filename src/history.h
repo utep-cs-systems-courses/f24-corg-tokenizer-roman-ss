@@ -9,6 +9,7 @@ typedef struct s_Item {
 
 typedef struct s_List {
   struct s_Item *root;
+  int size;
 } List;
 
 /* Initialize the linked list to keep the history. */
